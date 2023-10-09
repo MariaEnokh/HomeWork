@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson1;
+sepackage ru.geekbrains.lesson1;
 
 public class HomeWork1 {
     public static void main(String[] args) {
@@ -31,10 +31,10 @@ public class HomeWork1 {
         if (value <= 0) {
             System.out.println("Красный");
         }
-        if (value <= 100) {
+        else if (value <= 100) {
             System.out.println("Желтый");
         }
-        if (value > 100) {
+        else if (value > 100) {
             System.out.println("Зеленый");
         }
 
